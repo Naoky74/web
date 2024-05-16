@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.exercises {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-multiplicacion {
+    margin-bottom: 20px;
+}
+
+.form-multiplicacion label {
+    margin-right: 10px;
+}
+
+.form-multiplicacion input {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.matrix-input {
+    margin-bottom: 10px;
+}
+
+.matrix-input div {
+    margin-bottom: 5px;
+}
+
+.matrix-input input {
+    width: 50px;
+    margin-right: 5px;
+}
+
+#btnMultiplicacion {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnMultiplicacion:hover {
+    background-color: #45a049;
+}
+
+.resultados {
+    margin-top: 20px;
+}
+
+.resultados h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.resultados table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resultados td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: center;
+}
+
+.resultados td:first-child {
+    border-left: none;
+}
+
+.resultados td:last-child {
+    border-right: none;
+}
+
+.resultados tr:last-child td {
+    border-bottom: none;
+}
